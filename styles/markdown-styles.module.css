@@ -1,0 +1,103 @@
+.markdown {
+  @apply mt-10 text-base sm:text-sm;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+  @apply my-4 sm:my-6 text-base leading-relaxed;
+}
+
+.markdown h1 {
+  @apply text-3xl sm:text-2xl font-bold mt-8 mb-4;
+}
+
+.markdown h2 {
+  @apply text-2xl sm:text-xl font-bold mt-6 mb-3;
+}
+
+.markdown h3 {
+  @apply text-xl sm:text-lg font-bold mt-4 mb-2;
+}
+
+.markdown pre {
+  @apply mt-5 px-2.5 py-5 rounded overflow-x-auto text-xs sm:text-sm;
+}
+
+/* Shiki code block styles */
+.markdown pre code {
+  @apply bg-transparent p-0;
+  display: block;
+  overflow-x: auto;
+}
+
+/* Shiki generated code styles */
+.markdown .shiki {
+  @apply mt-5 px-2.5 py-5 rounded overflow-x-auto text-xs sm:text-sm;
+  background-color: #272822;
+  color: #f8f8f2;
+}
+
+/* Custom class for Shiki code blocks */
+.markdown .shiki-code {
+  @apply mt-5 px-2.5 py-5 rounded overflow-x-auto text-xs sm:text-sm;
+  background-color: #272822;
+  color: #f8f8f2;
+}
+
+/* Dark mode support for code blocks */
+.dark .markdown .shiki-code {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+.markdown img {
+  @apply m-3 sm:m-5 w-auto mx-auto max-w-full h-auto;
+}
+
+.markdown a {
+  @apply mx-1 text-blue-700 underline rounded hover:text-opacity-80;
+}
+
+.markdown blockquote {
+  @apply border-l-4 border-gray-300 dark:border-gray-600 pl-4 my-4 italic;
+}
+
+.markdown blockquote p {
+  @apply ml-0;
+}
+
+.markdown:not(pre) p code {
+  font-family: 'Exo 2', sans-serif;
+  @apply mx-1 py-1 px-2 bg-yellow-300 dark:bg-yellow-700 text-black dark:text-white rounded-md text-xs sm:text-sm;
+}
+
+.markdown ul,
+.markdown ol {
+  @apply pl-6 sm:pl-8;
+}
+
+.markdown li {
+  @apply mb-2;
+}
+
+.markdown del {
+  @apply line-through;
+}
+
+.markdown table {
+  @apply mx-auto text-xs sm:text-sm w-full overflow-x-auto;
+}
+
+.markdown table th {
+  @apply px-2 py-1 border-b border-gray-300 dark:border-gray-600;
+}
+
+.markdown table td {
+  @apply px-2 py-1 border-b border-gray-200 dark:border-gray-700;
+}
+
+.markdown mjx-container {
+  @apply w-full flex justify-center mb-5 overflow-x-auto;
+}

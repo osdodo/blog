@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+      xmlns:xhtml="http://www.w3.org/1999/xhtml">
+      
+	<url>
+		<loc>https://blog.imatrix.fun/404</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/500</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/index</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/index.js.nft</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/posts/[slug].js.nft</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/posts/bali</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/posts/decision-tree</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/posts/huffman-tree</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/posts/python-gil</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+</urlset>

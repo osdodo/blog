@@ -1,0 +1,32 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+@tailwind components;
+
+/* Write you own custom component styles here */
+
+@tailwind utilities;
+
+/* Your own custom utilities */
+
+body {
+  font-family: 'Exo 2', STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei,
+    'Microsoft YaHei', 'Songti SC', SimSun, Heiti, sans-serif;
+  background-color: #f8fbff;
+  color: #0f172a;
+}
+
+body.dark {
+  background-color: #020617;
+  color: #e2e8f0;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#vcomments .vwrap {
+  border: 1px solid #faf7f7;
+}
