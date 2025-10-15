@@ -6,12 +6,77 @@
       xmlns:xhtml="http://www.w3.org/1999/xhtml">
       
 	<url>
+		<loc>https://blog.imatrix.fun/404/index</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
 		<loc>https://blog.imatrix.fun/404</loc>
 		<lastmod>2025-10-15</lastmod>
 	</url>
 
 	<url>
-		<loc>https://blog.imatrix.fun/500</loc>
+		<loc>https://blog.imatrix.fun/avatar</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/baidu_verify_code-vdx2IpMDOS</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/favicons/android-chrome-192x192</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/favicons/android-chrome-512x512</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/favicons/apple-touch-icon</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/favicons/browserconfig</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/favicons/favicon-16x16</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/favicons/favicon-32x32</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/favicons/favicon</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/favicons/mstile-150x150</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/favicons/safari-pinned-tab</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/favicons/site</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/google0f3bae82003f5476</loc>
 		<lastmod>2025-10-15</lastmod>
 	</url>
 
@@ -21,32 +86,42 @@
 	</url>
 
 	<url>
-		<loc>https://blog.imatrix.fun/index.js.nft</loc>
+		<loc>https://blog.imatrix.fun/logo-base</loc>
 		<lastmod>2025-10-15</lastmod>
 	</url>
 
 	<url>
-		<loc>https://blog.imatrix.fun/posts/[slug].js.nft</loc>
+		<loc>https://blog.imatrix.fun/logo-rectangle</loc>
 		<lastmod>2025-10-15</lastmod>
 	</url>
 
 	<url>
-		<loc>https://blog.imatrix.fun/posts/bali</loc>
+		<loc>https://blog.imatrix.fun/logo</loc>
 		<lastmod>2025-10-15</lastmod>
 	</url>
 
 	<url>
-		<loc>https://blog.imatrix.fun/posts/decision-tree</loc>
+		<loc>https://blog.imatrix.fun/posts/bali/index</loc>
 		<lastmod>2025-10-15</lastmod>
 	</url>
 
 	<url>
-		<loc>https://blog.imatrix.fun/posts/huffman-tree</loc>
+		<loc>https://blog.imatrix.fun/posts/decision-tree/index</loc>
 		<lastmod>2025-10-15</lastmod>
 	</url>
 
 	<url>
-		<loc>https://blog.imatrix.fun/posts/python-gil</loc>
+		<loc>https://blog.imatrix.fun/posts/huffman-tree/index</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/posts/python-gil/index</loc>
+		<lastmod>2025-10-15</lastmod>
+	</url>
+
+	<url>
+		<loc>https://blog.imatrix.fun/sitemap</loc>
 		<lastmod>2025-10-15</lastmod>
 	</url>
 </urlset>

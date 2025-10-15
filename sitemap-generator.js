@@ -4,9 +4,9 @@ const sitemap = require('nextjs-sitemap-generator');
 
 sitemap({
     baseUrl: 'https://blog.imatrix.fun',
-    // If you are using Vercel platform to deploy change the route to /.next/serverless/pages
-    pagesDirectory: __dirname + '/.next/server/pages',
+    // 使用静态导出后的正确路径
+    pagesDirectory: __dirname + '/out',
     targetDirectory: 'public/',
     ignoredExtensions: ['js', 'map'],
-    ignoredPaths: ['assets'], // Exclude everything that isn't static page
+    ignoredPaths: ['assets', '_next'], // Exclude everything that isn't static page
 });

@@ -31,10 +31,12 @@ export default function PostPreview({ posts }: PostPreviewProps) {
               </div>
               <div className="flex-1 space-y-5">
                 <div className="flex flex-col gap-3">
-                  <Link as={`/posts/${post.slug}`} href="/posts/[slug]">
-                    <a className="inline-flex items-center gap-2 text-2xl font-semibold text-slate-900 transition-colors duration-300 hover:text-blue-600 sm:text-xl dark:text-white dark:hover:text-cyan-300">
-                      {post.title}
-                    </a>
+                  <Link
+                    as={`/posts/${post.slug}`}
+                    href="/posts/[slug]"
+                    className="inline-flex items-center gap-2 text-2xl font-semibold text-slate-900 transition-colors duration-300 hover:text-blue-600 sm:text-xl dark:text-white dark:hover:text-cyan-300"
+                  >
+                    {post.title}
                   </Link>
                   <p className="max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300">
                     {post.summary}
