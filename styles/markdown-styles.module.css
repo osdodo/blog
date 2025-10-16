@@ -53,7 +53,7 @@
 }
 
 .markdown img {
-  @apply m-3 sm:m-5 w-auto mx-auto max-w-full h-auto;
+  @apply m-3 sm:my-5 w-auto mx-auto max-w-full h-auto;
 }
 
 .markdown a {
