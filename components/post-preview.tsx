@@ -9,12 +9,6 @@ interface PostPreviewProps {
 export default function PostPreview({ posts }: PostPreviewProps) {
   return (
     <section className="relative mt-16 sm:mt-12">
-      <div className="mb-10 flex items-center justify-between sm:flex-col sm:items-start sm:gap-4">
-        <p className="max-w-xl text-base text-slate-600 dark:text-slate-300">
-          捕捉正在发生的灵感，记录每一次代码与想象力碰撞的瞬间。
-        </p>
-      </div>
-
       <div className="flex flex-col gap-8">
         {posts.map((post, index) => (
           <article
