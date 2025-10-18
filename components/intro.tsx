@@ -7,8 +7,6 @@ const STATUS_MESSAGES = [
   '在边缘部署想法...',
 ];
 
-const BADGES = ['Rust', 'TypeScript', 'Python'];
-
 export default function Intro() {
   const [statusIndex, setStatusIndex] = useState(0);
 
@@ -22,33 +20,32 @@ export default function Intro() {
   }, []);
 
   return (
-    <section className="relative mt-4 flex flex-col gap-6">
-      <div className="relative overflow-hidden rounded-2xl border border-white/50 bg-white/70 px-14 py-14 shadow-[0_45px_100px_-40px_rgba(30,64,175,0.45)] sm:px-6 sm:py-10 dark:border-white/10 dark:bg-slate-950/50 dark:shadow-[0_45px_90px_-35px_rgba(15,118,110,0.5)] backdrop-blur-xl">
+    <section className="relative mt-8">
+      <div className="relative overflow-hidden rounded-3xl border border-white/50 bg-white/75 px-10 py-14 shadow-[0_55px_120px_-45px_rgba(30,64,175,0.45)] backdrop-blur-2xl sm:px-8 sm:py-12 dark:border-white/5 dark:bg-slate-950/60 dark:shadow-[0_45px_100px_-40px_rgba(15,118,110,0.55)]">
         <div className="pointer-events-none absolute inset-0 mix-blend-soft-light">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_0%_0%,rgba(56,189,248,0.35),transparent_60%)]" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_40%,rgba(129,140,248,0.25),transparent_55%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_5%_5%,rgba(56,189,248,0.4),transparent_60%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_90%_25%,rgba(129,140,248,0.3),transparent_55%)]" />
+          <div className="absolute -left-24 top-1/4 h-[130%] w-1/2 rotate-12 bg-gradient-to-br from-sky-400/40 via-transparent to-indigo-500/30 blur-3xl" />
         </div>
-        <div className="relative flex flex-col items-start gap-6">
-          <div className="flex flex-col gap-4">
-            <h1 className="text-5xl font-semibold text-slate-900 sm:text-4xl dark:text-white">
-              欢迎来到真实的荒漠 :)
-            </h1>
-            <p className="max-w-2xl text-lg text-slate-600 sm:text-base dark:text-slate-300">
-              这里把代码、设计与生活点子揉成一场沙漠风暴。每一篇文章都是一次技术冒险，也是一小段旅程记录。
-            </p>
-          </div>
-          <div className="flex flex-wrap items-center gap-3">
-            {BADGES.map((badge) => (
-              <span
-                key={badge}
-                className="rounded-full border border-slate-200/80 bg-white/60 px-3 py-1 text-xs font-semibold tracking-widest text-slate-500 sm:text-[11px] dark:border-slate-700/60 dark:bg-slate-900/60 dark:text-slate-200"
-              >
-                {badge}
-              </span>
-            ))}
-          </div>
-          <div className="flex items-center font-mono text-xs text-slate-500 dark:text-slate-200">
-            {STATUS_MESSAGES[statusIndex]}
+
+        <div className="relative flex flex-col gap-12 lg:flex-row lg:items-center">
+          <div className="flex-1 space-y-8">
+            <span
+              aria-live="polite"
+              className="inline-flex items-center gap-3 rounded-full bg-white/80 px-4 py-1.5 font-mono text-[11px] tracking-[0.25em] text-slate-500 shadow-sm backdrop-blur dark:bg-slate-900/70 dark:text-slate-200"
+            >
+              <span className="h-2.5 w-2.5 animate-pulse rounded-full bg-emerald-400" />
+              {STATUS_MESSAGES[statusIndex]}
+            </span>
+
+            <div className="space-y-4">
+              <h1 className="text-5xl font-semibold leading-tight text-slate-900 sm:text-4xl dark:text-white">
+                欢迎来到真实的荒漠 :)
+              </h1>
+              <p className="max-w-xl text-lg leading-relaxed text-slate-600 dark:text-slate-300">
+                我是一个把技术栈当成探索工具的程序员，这里记录我对虚实交界的好奇、实验和故事。
+              </p>
+            </div>
           </div>
         </div>
       </div>
